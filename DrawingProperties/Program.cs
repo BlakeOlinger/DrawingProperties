@@ -43,6 +43,7 @@ namespace DrawingProperties
                 customPropertyManager.Set2(property, propertyValueDict[property]);
             }
 
+            model.ForceRebuild3(true);
         }
         private static void displayLines(string[] lines)
         {
